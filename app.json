@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Delta Imo",
+    "slug": "Delta_Imo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icone.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#08ffc8"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icone.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicone.png"
+    }
+  }
+}
