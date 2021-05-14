@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, TextInput, Text, View, TouchableOpacity, Image } from 'react-native';
+import { StyleSheet, TextInput, Text, View, TouchableOpacity, Image, Alert } from 'react-native';
 
 class LoginScreen extends React.Component {
   state={
@@ -10,7 +10,8 @@ class LoginScreen extends React.Component {
     //alert(`Email: ${this.state.email}\nSenha: ${this.state.password}`)
     if(this.state.email == "emailoficial@gmail.com" && this.state.password == "13579")
       this.props.navigation.navigate('Home')
-      else alert('Verifique se seu email ou sua senha estão corretos.')
+      else Alert.alert('Atenção!' ,'Verifique seu email e sua senha.')
+      
   }
   render(){
     return (
